@@ -1,0 +1,19 @@
+name: fizzBuzz
+
+dependencies:
+  - base
+
+library:
+  exposed-modules: FizzBuzz
+  source-dirs: src
+  dependencies:
+  # - foo       # List here the packages you
+  # - bar       # want to use in your solution.
+
+tests:
+  test:
+    main: FizzBuzzSpec.hs
+    source-dirs: test
+    dependencies:
+      - fizzBuzz
+      - hspec
