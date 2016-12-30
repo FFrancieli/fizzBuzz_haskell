@@ -12,3 +12,6 @@ main = hspec $ do
 
     it "returns fizz when number is 5" $ do
       fizzBuzz(5) `shouldBe` "buzz"
+
+    it "returns fizzbuzz when number is 15" $ do
+      fizzBuzz(15) `shouldBe` "fizzbuzz"
