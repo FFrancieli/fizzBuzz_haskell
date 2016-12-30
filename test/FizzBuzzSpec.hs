@@ -15,3 +15,6 @@ main = hspec $ do
 
     it "returns fizzbuzz when number is 15" $ do
       fizzBuzz(15) `shouldBe` "fizzbuzz"
+
+    it "returns fizz for any multiple of 3" $ do
+      fizzBuzz(9) `shouldBe` "fizz"
