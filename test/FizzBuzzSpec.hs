@@ -18,3 +18,6 @@ main = hspec $ do
 
     it "returns fizz for any multiple of 3" $ do
       fizzBuzz(9) `shouldBe` "fizz"
+
+    it "returns buzz for any multiple of 5" $ do
+      fizzBuzz(10) `shouldBe` "buzz"
